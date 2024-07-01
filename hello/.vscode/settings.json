@@ -1,0 +1,19 @@
+{
+	"CangjieSdk.Option": "CJNative",
+	"terminal.integrated.env.osx": {
+		"CANGJIE_HOME": "/lrn/cangjie/CangjieSDK-Darwin/cangjie",
+		"PATH": "/lrn/cangjie/CangjieSDK-Darwin/cangjie/bin:/lrn/cangjie/CangjieSDK-Darwin/cangjie/tools/bin:/lrn/cangjie/CangjieSDK-Darwin/cangjie/debugger/bin:${env:PATH}",
+		"DYLD_LIBRARY_PATH": "/lrn/cangjie/CangjieSDK-Darwin/cangjie/runtime/lib/darwin_aarch64_llvm:${env:DYLD_LIBRARY_PATH}"
+	},
+	"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinition",
+	"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+	"editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.revealDefinition",
+	"editor.selectionHighlight": false,
+	"files.autoSave": "onFocusChange",
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": "on"
+	}
+}
