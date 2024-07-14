@@ -1,5 +1,6 @@
 .build
 
 # cangjie
+target/
 *.bchir2
 *.cjo
