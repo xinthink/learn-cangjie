@@ -1,3 +1,5 @@
+import macros.*
+
 // This is a single-line comment
 
 /* Block comments
@@ -21,6 +23,12 @@ const func gravity(mass: Float64, radius: Float64): Float64 {
 // The Earth's gravitational acceleration
 const g = gravity(5.972e24, 6.378e6)
 
+// Macros
+func testMacros() {
+    let scores = [97, 92, 81, 60]
+    @LINQ(from s in scores where s > 80 select s)
+}
+
 main() {
     let immutableVairable = 1
     var mutableVariable = "This's a variable"
@@ -32,4 +40,7 @@ main() {
     let x = 127i8 // Int8
     let y = 256 // Infered to be Int64
     var z = 0xFFu8 // Unsigned Int8
+
+    println("${x} ${y} ${z}")
+    testMacros()
 }
