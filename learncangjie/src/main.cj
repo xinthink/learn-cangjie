@@ -89,4 +89,6 @@ main() {
     testConcurrency()
 
     testMacros()
+
+    // testCLib()
 }

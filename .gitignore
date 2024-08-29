@@ -1,6 +1,18 @@
-.build
+.build/
+build/
+.vscode/
 
 # cangjie
 target/
 *.bchir2
 *.cjo
+.cache/
+*.macrocall
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+*.dylib
+*.so
